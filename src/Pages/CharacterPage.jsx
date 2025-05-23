@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-// Komponen CardCharacter
 const CardCharacter = ({ image, name, category }) => {
   return (
     <div
@@ -25,7 +24,7 @@ const CharacterPage = () => {
   const [characters, setCharacters] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Ganti URL ini dengan URL MockAPI kamu
+
   const apiUrl = 'https://67f370efec56ec1a36d5ce06.mockapi.io/Character';
 
   useEffect(() => {
@@ -58,7 +57,7 @@ const CharacterPage = () => {
     <div className="min-h-screen bg-black text-white px-5 py-10 space-y-16">
       <h1 className="text-4xl font-bold text-center mb-8">Character</h1>
 
-      {/* Section: Ultraman */}
+  
       <section>
         <h2 className="text-3xl font-bold mb-6 text-center">Ultraman</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 justify-items-center">
@@ -73,7 +72,6 @@ const CharacterPage = () => {
         </div>
       </section>
 
-      {/* Section: Kaiju */}
       <section>
         <h2 className="text-3xl font-bold mb-6 text-center">Kaiju</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 justify-items-center">

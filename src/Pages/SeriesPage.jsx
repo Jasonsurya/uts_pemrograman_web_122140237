@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getSeries } from '../API/seriesApi';
 
+
 const SeriesPage = () => {
   const [series, setSeries] = useState([]);
 
