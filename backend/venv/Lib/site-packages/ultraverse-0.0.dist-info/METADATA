@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: ultraverse
+Version: 0.0
+Summary: UTS Pemrograman Web
+Keywords: web wsgi bfg pylons pyramid
+Classifier: Programming Language :: Python
+Classifier: Framework :: Pylons
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Requires-Dist: pyramid
+Requires-Dist: pyramid_jinja2
+Requires-Dist: SQLAlchemy
+Requires-Dist: psycopg2
+Requires-Dist: waitress
+Requires-Dist: marshmallow
+Requires-Dist: passlib
+Dynamic: classifier
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: summary
